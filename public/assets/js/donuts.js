@@ -24,13 +24,13 @@ $(function () {
 
         var newDonut = {
             name: $("#dnut").val().trim(),
-            devoured: false;
+            // devoured: false,
         };
 
         // Send the POST request.
         $.ajax("/api/donuts", {
             type: "POST",
-            data: newCat
+            data: newDonut
         }).then(
             function () {
                 console.log("created new donut");
