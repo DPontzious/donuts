@@ -1,0 +1,47 @@
+body{
+    background-image: url(../css/images/back.jpg);
+    font-family: 'Chonburi', cursive;
+}
+/* ul {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+} */
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+.col{
+    border: solid #53c5cc 10px;
+    margin-right: 10px;
+    background-color:rgb(246, 191, 203, .9);
+}
+#newDonut{
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+} 
+.change-devoured{
+color: #53c5cc;
+border: solid #53c5cc 2px;
+border-radius: 15px;
+}
+#submit{
+  color: #53c5cc;
+border: solid #53c5cc 2px;
+border-radius: 15px;
+margin-bottom: 10px; 
+}
+h1{
+    margin-top: 10px;
+}

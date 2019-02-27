@@ -3,7 +3,6 @@ $(function () {
         var id = $(this).data("id");
         var newEaten = $(this).data("neweaten");
         // THIS NEEDS TO HAVE A VALUE
-
         var newEatenState = {
             devoured: newEaten
         };
@@ -26,8 +25,6 @@ $(function () {
             name: $("#dnut").val().trim(),
             // devoured: false,
         };
-
-        // Send the POST request.
         $.ajax("/api/donuts", {
             type: "POST",
             data: newDonut
